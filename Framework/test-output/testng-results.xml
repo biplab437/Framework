@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="98951" started-at="2021-02-08T11:33:39 IST" finished-at="2021-02-08T11:35:18 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="98951" started-at="2021-02-08T11:33:39 IST" finished-at="2021-02-08T11:35:18 IST">
+      <class name="com.auto.testcases.Login_TC_2">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.auto.testcases.Login_TC_2@3bf7ca37]" name="setupMethod" is-config="true" duration-ms="9456" started-at="2021-02-08T11:33:55 IST" finished-at="2021-02-08T11:34:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="loginTest2()[pri:0, instance:com.auto.testcases.Login_TC_2@3bf7ca37]" name="loginTest2" duration-ms="3" started-at="2021-02-08T11:34:04 IST" finished-at="2021-02-08T11:34:04 IST">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.auto.testcases.Login_TC_2.loginTest2(Login_TC_2.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.auto.testcases.Login_TC_2@3bf7ca37]" name="tearDownMethod" is-config="true" duration-ms="73494" started-at="2021-02-08T11:34:04 IST" finished-at="2021-02-08T11:35:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest2 status=FAILURE method=Login_TC_2.loginTest2()[pri:0, instance:com.auto.testcases.Login_TC_2@3bf7ca37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.auto.testcases.Login_TC_2 -->
+      <class name="com.auto.testcases.Login_TC_1">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.auto.testcases.Login_TC_1@3c9754d8]" name="setUpSuite" is-config="true" duration-ms="1091" started-at="2021-02-08T11:33:38 IST" finished-at="2021-02-08T11:33:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.auto.testcases.Login_TC_1@3c9754d8]" name="setupMethod" is-config="true" duration-ms="9515" started-at="2021-02-08T11:33:39 IST" finished-at="2021-02-08T11:33:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.auto.testcases.Login_TC_1@3c9754d8]" name="loginTest" duration-ms="750" started-at="2021-02-08T11:33:49 IST" finished-at="2021-02-08T11:33:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.auto.testcases.Login_TC_1@3c9754d8]" name="tearDownMethod" is-config="true" duration-ms="5658" started-at="2021-02-08T11:33:49 IST" finished-at="2021-02-08T11:33:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=Login_TC_1.loginTest()[pri:0, instance:com.auto.testcases.Login_TC_1@3c9754d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.auto.testcases.Login_TC_1@3c9754d8]" name="tearDownSuite" is-config="true" duration-ms="493" started-at="2021-02-08T11:35:18 IST" finished-at="2021-02-08T11:35:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.auto.testcases.Login_TC_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
