@@ -1,10 +1,8 @@
 package com.auto.testcases;
 
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import com.auto.pages.LoginPage;
 import com.auto.utility.BrowerFactory;
 import com.aventstack.extentreports.Status;

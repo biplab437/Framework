@@ -5,12 +5,11 @@
     <classes>
       <class name="com.auto.testcases.Login_TC_1">
         <methods>
-          <include name="loginTest"/>
-          <include name="tearDownMethod"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="setupMethod"/>
           <include name="setUpSuite"/>
+          <include name="loginTest"/>
+          <include name="setupMethod"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownSuite"/>
         </methods>
       </class> <!-- com.auto.testcases.Login_TC_1 -->
     </classes>

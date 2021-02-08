@@ -31,7 +31,7 @@ public class Login_TC_2 extends TestBase {
 		//excel.getStringData("Login", 0, 0);
 		String str =excel.getStringData("Sheet1", 0, 0);
 		System.out.println(str);
-		int i=10/0;
+		//int i=10/0;
 
 		
 		logger.log(Status.INFO, "App started : "+config.getURL());
